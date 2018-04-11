@@ -1,0 +1,16 @@
+body{
+	background-color: #FFD6DC;
+	font-family: "Georgia", cursive, serif;
+}
+
+.col-sm-8{
+	background-color:#f5f5f5 
+}
+
+.col-sm-8{
+	border-radius:10px
+}
+
+.checkbox{
+	display:none
+}

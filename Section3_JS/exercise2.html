@@ -16,7 +16,17 @@
 <body>
     <script type="text/javascript">
 
-    if ((grabFirstLetter("Shane") == "S") && (grabLastLetter("Roger") == "r")){
+    function grabFirstLetter(x){
+        var x = 'some string';
+        alert(x.charAt(0)); 
+    }
+
+    function grabLastLetter(x){
+        var x = 'Roger';
+        return x[-1]
+    }
+
+    if ((grabFirstLetter("Shane") == "S") && (grabLastLetter("Roger") == "R")){
         var comment = "EXERCISE COMPLETED";
         var newHeader = document.createElement('h1');
         newHeader.textContent = comment;

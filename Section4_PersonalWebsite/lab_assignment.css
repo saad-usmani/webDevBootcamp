@@ -1,0 +1,53 @@
+body {
+  background-color: #e74c3c;
+  animation: bg-color 0.5s infinite;
+  -webkit-animation: bg-color 0.5s infinite;
+}
+h1{
+  font-family: Meiryo, "Hiragino Kaku Gothic Pro W3",sans-serif;
+  animation: color 0.1s infinite;
+  -webkit-animation: color 0.1s infinite;
+}
+
+@-webkit-keyframes bg-color {
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+}
+
+@keyframes bg-color {
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+}
+
+@-webkit-keyframes color {
+  0% { color: #e74c3c; }
+  20% { color: #f1c40f; }
+  40% { color: #1abc9c; }
+  60% { color: #3498db; }
+  80% { color: #9b59b6; }
+  100% { color: #e74c3c; }
+}
+
+@keyframes color {
+  0% { color: #e74c3c; }
+  20% { color: #f1c40f; }
+  40% { color: #1abc9c; }
+  60% { color: #3498db; }
+  80% { color: #9b59b6; }
+  100% { color: #e74c3c; }
+}
+
+p {
+  font-family: Meiryo, "Hiragino Kaku Gothic Pro W3",sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  color: #fff;
+}

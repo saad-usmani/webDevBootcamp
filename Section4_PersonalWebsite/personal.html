@@ -1,11 +1,38 @@
 <!DOCTYPE HTML>
     <html>
         <head>
-            <title>[Your Name]'s Personal Website</title>
-            <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+            <title>Saad's Personal Website</title>
+            <script type="text/javascript" src="d3.min.js"></script>
+            <link href="./lab_assignment.css" type="text/css" rel="stylesheet">
         </head>
         <body>
-            <h1>Looking pretty boring here... wish I had some CSS</h1>
-            <p>D3 Has been loaded into this page from a CDN.</p>
+            <h1><center>It's me ya boi Saad, welcome to my website</center></h1>
+            <center><img src="saad.jpg" alt="ya boi", style="width:450px;height:300px"></center>
+            <center>
+            <p>
+                I believe in 
+                <strong><font size="26">science.</font></strong>
+            <br>
+                ...and terrible design choices. 
+            </br>
+            </p>
+            <script>
+            d3.select("body").append("p")
+            d3.select("body")
+              .append("h1")
+              .append("center")
+              .text("Here is my favorite purple dot")
+            d3.select("body")
+              .append("center")
+              .append("svg")
+              .attr("width", 50)
+              .attr("height", 50)
+              .append("circle")
+              .attr("cx", 25)
+              .attr("cy", 25)
+              .attr("r", 25)
+              .style("fill", "purple");
+            </script>
+            </center>
         </body>
     </html>
